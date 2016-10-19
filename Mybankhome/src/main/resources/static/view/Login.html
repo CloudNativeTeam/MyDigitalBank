@@ -1,0 +1,63 @@
+<!-- Page Content -->
+<div class="container">
+
+	<div class="row">
+
+		<div class="col-lg-12">
+			<h1 class="page-header">
+				User Login <small>My Digital Bank user can login here!</small>
+			</h1>
+			<ol class="breadcrumb">
+				<li><a href="../../index.html">Home</a></li>
+				<li class="active">User Login</li>
+			</ol>
+		</div>
+	</div>
+
+	<!-- /.row -->
+
+	<div class="row">
+
+		<div class="col-sm-8">
+			<h3>User login!</h3>
+
+			<p>This login only for register and approve user</p>
+
+			<form role="form" method="POST" action="/login">
+				<div class="row">
+					<div class="form-group col-lg-4">
+						<label for="userName">User Name</label> <input type="text"
+							name="contact_name" class="form-control" id="userName">
+					</div>
+					<div class="form-group col-lg-5">
+						<label for="userPassword">Password</label> <input type="password"
+							name="contact_name" class="form-control" id="userPassword">
+					</div>
+
+					<div class="form-group col-lg-12">
+						<input type="hidden" name="save" value="contact">
+						<button type="submit" class="btn btn-primary">Login</button>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div class="col-sm-4">
+			<h3>New User Registration</h3>
+			<h4>If you want to become part of My Digital Bank Register your
+				self here</h4>
+
+			<p>
+				User need to go with approval</br> process from our Banker
+			</p>
+			<div class="form-group col-lg-12">
+				<input type="hidden" name="save" value="contact">
+				<button type="submit" class="btn btn-primary">Register Here</button>
+			</div>
+		</div>
+
+	</div>
+	<!-- /.row -->
+
+</div>
+<!-- /.container -->
